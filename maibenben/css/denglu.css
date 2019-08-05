@@ -1,0 +1,95 @@
+
+.loginDIV{
+    
+    position: relative;
+
+}
+.loginDIV .bg{
+   background:#f00 url(../img/20180829013118792.jpg) center top no-repeat;
+   background-size: cover;
+   height:588px;
+
+}
+.loginBox{
+    position:absolute;
+    top:32px;
+    right:50%;
+    margin-right:-613px;
+    width:410px;
+    height:524px;
+    background:#fff;
+    z-index: 22;
+
+}
+.loginBox .title{
+    height:93px;
+    line-height: 93px;
+    font-size:24px;
+    color: #636363;
+    text-align:center;
+}
+.loginBox .form{
+    padding:0 30px;
+}
+.loginBox .form li{
+    padding-bottom:14px;
+}
+.loginBox .form li .box{ 
+    height: 48px; border: #e0e0e0 solid 1px; 
+}
+
+.loginBox .form li .box .input1{
+    padding-left:14px;
+    width:330px;
+    font-size:14px;
+    height:48px;
+    line-height:48px;
+}
+.loginBox .form .btn1{
+    margin-top:10px;
+    width:100%;
+    height:50px;
+    background:#b87ffd;
+    font-size:14px;
+    color:#fff;
+    cursor: pointer;
+}
+.loginBox .form .links{
+    text-align:right;
+}
+.loginBox .form a{
+    font-size:14px;
+    padding:0 5px;
+}
+fieldset{
+    border:0 ;
+}
+.oth_type_tit {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;}
+.oth_type_txt{
+    text-align:center;
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 auto;
+}
+.oth_type_links {
+    display: flex;
+    justify-content: center;
+}
+/* 尾部 */
+.footBot {
+    padding: 60px 0 90px;
+}
+.msg {
+    font-size: 14px;
+    margin:0 auto;
+}
+.footBot .msg img{ padding: 0 6px; 
+}
+.footBot .msg a{
+   color: #666;
+}
+.footBot .msg a:hover{
+    color:#b87ffd;
+}

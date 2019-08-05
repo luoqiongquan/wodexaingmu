@@ -1,0 +1,111 @@
+body{
+    background: #f9f9f9;  
+}
+.regDiv{
+    padding-top:132px;
+}
+.regBox{
+    background: #fff;
+    width: 856px;
+    height: 550px;
+    margin: 0 auto 80px;
+}
+
+.regBox .logo{
+    padding-bottom:40px;
+    text-align: center;
+}
+.regBox .title{
+    text-align: center;
+    color: #494949;
+    font-size: 30px;
+}
+img{
+    border:0;
+    vertical-align: middle;
+}
+.regBox .title{
+    color:#494949;
+    font-size: 30px;
+}
+.regBox .form{
+    padding:65px 262px 0;
+}
+.regBox .form .li-box{
+    margin-bottom:30x;
+}
+.regBox .form .txt{
+    font-size:14px;
+    height:28px;
+}
+.regBox .form .lbox {
+    height: 40px;
+    border: #e8e8e8 solid 1px;
+}
+.regBox .select {
+    /* border: #007bc7 solid 1px; */
+    width: auto;
+    position: relative;
+    left: 0;
+}
+.fl {
+    float: left;
+}
+
+.regBox .select dt {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    width: 72px;
+    border-right: #e8e8e8 solid 1px;
+    background: url(../img/selectIco.jpg) no-repeat right center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    z-index: 25;}
+    .regBox .select dt a{  
+        font-size: 14px;
+        color: #666; 
+        position: relative; 
+        padding-left: 10px; 
+        display: block; 
+        text-align: left; 
+        overflow: hidden; 
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+    } 
+    .regBox .select dd{ 
+        margin: 0;
+        position: absolute;
+        left: 0px;top: 
+        40px;z-index: 100; width: 100%;} 
+    .regBox .select dd ul {
+        list-style: none; 
+        overflow: auto; background: #f7f7f7;} 
+    .regBox .select dd ul li{
+        line-height: 32px; 
+        height: 32px; cursor:
+         pointer;
+          padding-left: 10px; 
+          border-bottom: 1px solid #ebebeb; color: #555; font-size: 14px;
+        }
+    .regBox .select dd ul li:hover{ color: #b87ffd;}
+        .regBox .form .input2 {
+            width: 245px;
+            /* border: #e8e8e8 solid 1px; */
+        }
+        .regBox .form .input1{ float: left; padding-left: 10px; width: 319px; height: 40px; line-height: 40px; font-size: 14px;}
+        .regBox .form .input2{ width: 245px; /*border: #e8e8e8 solid 1px;*/}
+        .regBox .form .input3{ width: 192px; border: #e8e8e8 solid 1px; float: none;}
+        .regBox .form .btn1{ margin-bottom: 10px; width: 100%; height: 42px; background: #b87ffd; color: #fff; font-size: 14px; cursor: pointer; }
+        .regBox .form .btn2{ width: 332px; height: 40px; border: #ddd solid 1px; line-height: 40px; background: #fff; color: #7c7c7c;}
+        .regBox .tips{ text-align: center; padding-top: 70px; height: 24px; line-height: 24px; color: #9d9d9d; font-size: 14px;}
+        .regBox .tips a{ color: #333; font-weight: bold; padding: 0 2px;}
+        .regBox .tips img{ position: relative; top: -1px; padding-right: 5px; }
+        .regBox .form .marginb{ margin-bottom: 10px; }
+        .regBox .form .lmsg{ font-size: 14px; line-height: 22px; color: #c5c5c5; padding-top: 15px;}
+        .regBox .form .wenzi{ font-size: 14px; color: #333; font-weight: bold; padding-bottom: 25px;}
+        .regBox .form .wenzi2{ color: #666; font-size: 14px; }
+        .regBox .form .wenzi2 em{ color: #b87ffd;}
