@@ -463,7 +463,7 @@ ul>li .msg {
     right: 7px;
     width: 36px;
     height: 24px;
-    background:#fff url(/img/nimg36_right.jpg) left center no-repeat;
+    background:#fff url(../img/nimg36_right.jpg) left center no-repeat;
     z-index: 233;
 }
 #leftaa{
@@ -473,7 +473,7 @@ ul>li .msg {
     right: 42px;
     width: 36px;
     height: 24px;
-    background:#fff url(/img/nimg36_left.jpg) left center no-repeat;
+    background:#fff url(../img/nimg36_left.jpg) left center no-repeat;
     z-index: 233;
 }
 
