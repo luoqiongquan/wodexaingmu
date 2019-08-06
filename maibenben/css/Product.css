@@ -12,7 +12,8 @@
     width:1226px;
 }
 .product{
- padding-top:20px;   
+ padding-top:20px; 
+ position: relative;  
 }
 .product .list{
     margin-right:-14px;
@@ -94,3 +95,22 @@
      background-color:#e53935;
      margin-top:40px;
  }
+ .product .goods-item .actions .btn-like{
+     left:16px;
+ }
+ .product .goods-item .actions .btn-like, .product .goods-item .actions .btn-buy{
+    position: absolute;
+    display: inline-block;
+    top: 60px;
+    z-index: 3;
+    height: 24px;
+    padding: 3px 4px;
+    font-size: 12px;
+    color: #424242;
+    display: none;
+    transition:all .2s linear;
+ }
+ .product .goods-item .actions .btn-buy{
+     right:15px;
+ }
+ 
