@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/header.css"/>
     <link rel="stylesheet" href="./css/denglu.css">
     <link rel="stylesheet" href="./css/zhuce.css">
+    <script src="Js/zhuce.js"></script>
 </head>
 <body>
 <header>
@@ -14,25 +15,37 @@
 <div class="regDiv">
     <!-- 注册 -->
     <div class="regBox">
-        <div class="logo"><img src="../img/logo3.png" alt=""></div>
+        <div class="logo"><img src="./img/logo3.png" alt=""></div>
         <div class="title">注册麦本本账号</div>
         <div class="form">
             <div class="li-box">
                     <div class="txt">手机号码</div>
-            </div>
-            <div class="1box">
-                <div class="select f1"><dt class data-id>
-                    <a href="#" data-id="1">+86</a>
-                </dt>
-                <dd style="display: none;"><ul><li>+86</li></ul></dd>
+            
+            <div class="lbox">
+                <div class="lbox-select f1">
+                  <select class="lbox-select1">+86
+                   <option value="">+86</option>
+                   <input type="text"  class="input1 input2 input_hover" placeholder="请输入手机号码">
+                </select>
             </div> 
-            <input type="text"  class="input1 input2 input_hover" placeholder="请输入手机号码">
+               
+            
+            </div>
             </div>
             <div class="li-box">
-                 <input type="botton" class="btn1" value="立即注册" onlick="checkMobile">
+                <button class="but" id="btn" >立即注册</button>
             </div>
         </div>
-        <div class="tips"><img src="" alt="">注册账号即表示您同意并愿意遵守麦本本商城
-        <a href="#">用户协议</a>和<a href="#">隐私政策</a></div>
+        <div class="tips"><img src="./img/nimg20_7.jpg" alt="">注册账号即表示您同意并愿意遵守麦本本商城<a href="/Other/Agreement.html" target="_blank">用户协议</a>和<a href="/Other/Privacy.html" target="_blank">隐私政策</a></div>
     </div>
 </div>
+<div class="footBot">
+        <div class="wal">
+            <div class="msg">Copyright  紫麦科技<img src="./img/nimg19_4.jpg" alt="">
+                <a href="http://www.miitbeian.gov.cn/">粤ICP备18090612号-1</a>
+                <a href="http://www.vancheer.com/"> Powered by vancheer</a>
+    
+            </div>
+        </div>
+    </div>
+    
