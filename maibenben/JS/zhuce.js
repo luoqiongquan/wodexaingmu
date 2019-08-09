@@ -1,13 +1,13 @@
 $(function(){
     $("btn").click(function(){
-
+        alert(111);
+        
+        if($("#inputMsg").val()==""){
+            alert(222);
+            $("#phone").html("*您输入的电话号码为空！请重新输入");
+        }
     
- var txtName=$("input:text").val();
-   if(txtName==""){
-       alert("手机号码不能为空！");
-       return;
-       
-   }
+ 
 })
   
 });

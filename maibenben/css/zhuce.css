@@ -46,15 +46,18 @@ img{
     margin-bottom:40px;
 }
 .lbox .lbox-select .lbox-select1{
-    height: 46px;
+    height: 45px;
     width: auto;
+    line-height: 45px;
+    padding: 1px;
   
 } .regBox .form .input1{ 
         padding-left: 10px;
-        width: 270px;
-        height: 40px; 
-        line-height: 45px; 
-        font-size: 14px;
+        width: 280px;
+        height: 45px; 
+        line-height: 45px;
+      font-size: 14px;
+      box-sizing:border-box;
  }
  .li-box .but{
      width:330px;
@@ -74,6 +77,12 @@ img{
     color: #333;
     font-weight: bold;
     padding: 0 2px;
+}
+#phone{
+    position:relative;
+    top:-33px;
+    left:337px;
+    font-size:14px;
 }
 /* 尾部 */
 .footBot {
